@@ -1,4 +1,4 @@
-
+import Navigation from './components/Navigation.jsx';
 import './App.css'
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className="App">
-      My updated portfolio. 2023
+      <Navigation/>
     </div>
   )
 }
