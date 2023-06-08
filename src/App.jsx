@@ -1,5 +1,6 @@
 import Navigation from './components/Navigation.jsx';
 import './App.css'
+import Bio from './components/Bio.jsx';
 
 function App() {
   
@@ -7,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <Navigation/>
+      {/* <Bio/> */}
     </div>
   )
 }

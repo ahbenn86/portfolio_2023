@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+
 .navigation {
-    
+    height: 5rem;
+}
+
+a{
+    color: white !important;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
+}
+
+.social-btn {
+    background-color: #AC0000;
+    border: none;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
+}
+
+@media (max-width: 1050px) {
+    .social-btn {
+        display: none !important;
+    }
 }
